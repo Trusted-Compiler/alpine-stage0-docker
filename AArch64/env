@@ -1,0 +1,9 @@
+ARCH=AArch64
+
+BUILDER_PREFIX=/external/builder-hex0
+SEEDS_PREFIX=/external/bootstrap-seeds
+
+STAGE0_PREFIX=/arch/stage0-build
+STAGE0_REPO=${STAGE0_PREFIX}/${ARCH}
+STAGE0_BIN=${STAGE0_REPO}/bin
+

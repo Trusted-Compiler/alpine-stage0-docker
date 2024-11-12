@@ -1,0 +1,9 @@
+[submodule "external/builder-hex0"]
+	path = external/builder-hex0
+	url = https://github.com/ironmeld/builder-hex0.git
+[submodule "external/bootstrap-seeds"]
+	path = external/bootstrap-seeds
+	url = https://github.com/oriansj/bootstrap-seeds.git
+[submodule "external/stage0-posix"]
+	path = external/stage0-posix
+	url = https://github.com/oriansj/stage0-posix.git
