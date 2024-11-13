@@ -31,9 +31,13 @@ Hosted system:
 
 ### Build image
 
+Supported architectures:
+- `AArch64`
+- `AMD64`
+
 ```console
 $ git submodule update --init --recursive
-$ docker build -t alpine-stage0:latest .
+$ docker build --build-arg arch=<arch> -t alpine-stage0:latest .
 ```
 
 ### Future
